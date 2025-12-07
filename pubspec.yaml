@@ -1,0 +1,17 @@
+name: phone_tracker
+description: Phone tracker app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.9.0
+  geolocator: ^9.0.2
+
+flutter:
+  uses-material-design: true
